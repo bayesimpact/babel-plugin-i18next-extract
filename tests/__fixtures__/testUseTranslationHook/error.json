@@ -1,0 +1,11 @@
+{
+  "description": "extracting with errors from different files",
+  "comment": "ComponentWithError should warn, but extract all the keys",
+  "pluginOptions": {},
+  "expectValues": [
+    [
+      {"key1": ""}, {"ns": "from-hook"},
+      {"key2": ""}, {"ns": "from-t"}
+    ]
+  ]
+}
